@@ -1,0 +1,228 @@
+*{ 
+  margin:0;
+  padding:0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  color:black;
+  }
+  body{
+      display:flex;
+      flex-direction: column;
+  }
+  .nav{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color:white;
+  }
+  .main{
+      width:80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding:5% 0px;
+      display:flex;
+      flex-direction: column;
+    }
+    .full_height{
+        min-height: calc(100vh - 58px - 60px);
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+        max-width: 60px;
+        max-height: 60px;
+        border-radius: 50%;
+    }
+    .li_nav{
+        display:inline;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding:0px 10px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .header{
+      background:url(img/header.png) center fixed;
+      background-size: cover;
+      padding:110px;
+      text-align:center;
+  }
+  h1{
+      text-align: center;
+      font-weight: bold;
+      font-size: 40px;
+      color:white;
+  }
+  h2{
+      text-align: center;
+      font-size: 20px;
+      padding:5px 5px;
+      margin-bottom: 10px;
+  }
+  h3{
+      text-align: center;
+      font-size: 30px;
+      color:white;
+      padding:13px;
+  }
+  @media screen and (min-width: 839px){
+      h1{
+          font-size:40px;
+      }
+      h3{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 838px){
+    h1{
+        font-size:20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
+.item{
+    display:inline-block;
+    font-weight: bold;
+    padding:20px;
+}
+.item_wrap{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.item img{
+   height:300px;
+   display:inline-block;
+}
+.section_aboutus{
+  background:url(img/aboutusbg1.jpg) center fixed;
+  background-size:cover;
+}
+.section_aboutus-txt{
+  text-align: left;
+  background-color: rgba(255,255,255,0.7);
+  font-size: 20px;
+  padding:3% 5%;
+  letter-spacing: 1px;
+  border-radius: 15px 15px;
+}
+figcaption:hover{
+  text-decoration: underline;
+}
+footer{
+  display:flex;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding:20px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width:250px;
+  padding:12px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+.contact_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_h2{
+  padding:20px;
+}
+.form_control{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  width: 100%;
+  resize:vertical;
+}
+input[type=submit] {
+  background-color: black;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  cursor:pointer;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  align-self: center;
+}
+.product {
+  display: flex;
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.product_info {
+  max-width: 600px;
+}
+.product_info p {
+  margin-bottom: 20px;
+}
+.product_item {
+  max-width: 300px;
+}
+.product_item img {
+  width: 100%;
+}
+.product_item figcaption {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.product_price {
+  font-size: 20px;
+  background: black;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left:5px;
+}
+.product_info select {
+  margin-bottom: 20px;
+  margin-right: 8px;
+  padding: 8px 18px;
+}
+.product_type{
+  display: flex;
+  align-items: center;
+}
+.btn {
+  padding: 8px 18px;
+  background: black;
+  color: white;
+  display: inline-block;
+}
+.btn_yellow {
+  background: yellow;
+  color: black;
+}
+.item_wrap a{
+  transition: .3s ease;
+  transform: scale(1);
+
+}
+.item_wrap a:hover{
+  transform: scale(1.1);
+}
