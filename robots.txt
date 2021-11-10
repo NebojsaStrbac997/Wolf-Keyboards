@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /style.css
+Disallow: /img/
+Disallow: /gateronred.html
+Disallow: /gateronbrown.html
+Disallow: /gateronblue.html
